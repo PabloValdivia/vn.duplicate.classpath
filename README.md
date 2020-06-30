@@ -28,7 +28,7 @@ this project to figure it out
 1. console show list classpath of vn.duplicate.classpath.lib
 
 can see dupplicate of all jar library
-
+```
 osgi> LookupResource:lookup  
 /mnt/data/1Dev/project/test/vn.duplicate.classpath/vn.duplicate.classpath.lib/lib/breeze.jar  
 /mnt/data/1Dev/project/test/vn.duplicate.classpath/vn.duplicate.classpath.lib/lib/calendar.jar  
@@ -47,3 +47,4 @@ osgi> LookupResource:lookup
 /mnt/data/1Dev/project/test/vn.duplicate.classpath/vn.duplicate.classpath.lib/lib/timeplotz.jar  
 /mnt/data/1Dev/project/test/vn.duplicate.classpath/vn.duplicate.classpath.lib  
 osgi> 
+```
