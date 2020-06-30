@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: App
+Bundle-SymbolicName: vn.duplicate.classpath.app
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: vn.duplicate.classpath.app
+Bundle-RequiredExecutionEnvironment: JavaSE-13
+Import-Package: org.eclipse.osgi.internal.loader,
+ org.eclipse.osgi.internal.loader.classpath,
+ org.eclipse.osgi.storage.bundlefile,
+ org.osgi.framework;version="1.9.0",
+ org.osgi.framework.wiring;version="1.2.0",
+ org.osgi.service.component;version="1.4.0",
+ org.osgi.service.component.annotations;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Require-Bundle: vn.duplicate.classpath.lib;bundle-version="1.0.0"
+Service-Component: OSGI-INF/vn.duplicate.classpath.app.LookupResource.xml

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" activate="activate" name="vn.duplicate.classpath.app.LookupResource">
+   <property name="osgi.command.scope" type="String" value="LookupResource"/>
+   <property name="osgi.command.function" type="String" value="lookup"/>
+   <service>
+      <provide interface="vn.duplicate.classpath.app.LookupResource"/>
+   </service>
+   <implementation class="vn.duplicate.classpath.app.LookupResource"/>
+</scr:component>
